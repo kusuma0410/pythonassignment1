@@ -5,9 +5,8 @@
 #t="abc" #o/p:3
 #t=("abc") #o/p:3
 #t=("apple","banana") #o/p:2
-t="apple","banana"
-print(len(t))
-
+#t="apple","banana"
+#print(len(t))
 
 #tuple functions
 #len()
@@ -110,3 +109,24 @@ print(len(t))
 #s.clear()
 #print(s) #o/p:set()
 
+#discard()
+#The discard() method removes the specified item from the set. 
+#This method is different from the remove() method, because the remove() method will raise an error if the specified item does not exist, and the discard() method will not.
+
+#pop():
+#The pop() function removes the last element or the element based on the index given.
+#It does not require a parameter; it is optional.
+#It returns the value of the deleted element.
+#Syntax: list_name.pop()
+#Time complexity is O(1) when the last element is to be removed. Otherwise, it is O(n) for extracting an element at the specified index.
+#    It gives IndexError if the specified index is not found
+#It gives no error if the parameter is not passed.
+
+#remove():
+#remove() function removes the first occurrence of the specified element.
+#It requires a parameter. The value of the element is passed as the parameter.
+#It does not return any value.
+#Syntax: list_name.remove(value)
+#Time complexity is O(n)
+#It gives ValueError if the specified value is not found.
+#It throws TypeError if the parameter is not passed.
