@@ -1,4 +1,4 @@
-#   /02/24   monday
+# 19 /02/24   monday
 
 #write a functiom given number is even or odd 
 #num = int (input ("given number is odd or even: "))
@@ -65,7 +65,6 @@
 #res = numOne/numTwo
 #print("Division Result = ", res)
 
- 
 #pro to enter the name and percentage of marks in a dictionary and display info on the screen 
 #n = int(input("Enter number of students: "))
 #result = {}
@@ -76,8 +75,6 @@
 #marks = int(input("Marks: "))
 #result[rno] = [name, marks]
 #print(result)
-
-
 
 def student(x,y,z):
    result = {}
